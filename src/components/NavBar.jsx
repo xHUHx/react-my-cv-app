@@ -12,9 +12,9 @@ export default function NavBar({pname, colorLinkNavbar}) {
         {/* เมนูด้านขวา */}
         <div className="flex gap-5 items-center">
           <a href="/" className="text-white" style={{color: pname == 'h' ? colorLinkNavbar : '#ffffff'}}>Home</a>
-          <a href="/about" className="text-white" style={{color: pname == 'a' ? colorLinkNavbar : '#ffffff'}}>About</a>
-          <a href="/portfolio" className="text-white" style={{color: pname == 'c' ? colorLinkNavbar : '#ffffff'}}>Portfolio</a>
-          <a href="/contact" className="text-white border-2 border-white px-4 py-1 rounded-2xl"
+          <a href="/About" className="text-white" style={{color: pname == 'a' ? colorLinkNavbar : '#ffffff'}}>About</a>
+          <a href="/Portfolio" className="text-white" style={{color: pname == 'c' ? colorLinkNavbar : '#ffffff'}}>Portfolio</a>
+          <a href="/Contact" className="text-white border-2 border-white px-4 py-1 rounded-2xl"
             style={{color: pname == 'p' ? colorLinkNavbar : '#ffffff'}}>
             Let's Talk
           </a>
